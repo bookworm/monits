@@ -1,0 +1,5 @@
+set mailserver  smtp.gmail.com port 587
+username “monituser@domain.com” password “password”
+using tlsv1
+with timeout 30 seconds
+set logfile /var/log/monit.log
